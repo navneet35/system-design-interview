@@ -28,7 +28,7 @@ per second, requests types, data written per second, data read per second.
 **High-level architecture design**
 
 Sketch the important components and the connections between them, but don't go into some details. 
-Usually, a scalable system includes webserver (load balancer), service (service partition), database (master/slave database cluster plug cache).
+Usually, a scalable system includes webserver (load balancer), service (service partition), database (primary/secondary database cluster plug cache).
  
 **Component design**
 
@@ -44,7 +44,7 @@ Here are some articles about system design related topics.
 * [Scalability for Dummies](http://www.lecloud.net/tagged/scalability)
 * [Scalable Web Architecture and Distributed Systems](http://www.aosabook.org/en/distsys.html)
 * [Numbers Everyone Should Know](http://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
-* [Fallacies of distributed systems] (https://pages.cs.wisc.edu/~zuyu/files/fallacies.pdf)
+* [Fallacies of distributed systems](https://pages.cs.wisc.edu/~zuyu/files/fallacies.pdf)
 * [Scalable System Design Patterns](http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html)
 * [Introduction to Architecting Systems for Scale](http://lethain.com/introduction-to-architecting-systems-for-scale/)
 * [Transactions Across Datacenters](http://snarfed.org/transactions_across_datacenters_io.html)
@@ -97,6 +97,8 @@ If you are going to have an onsite with a company, you should read their enginee
 * [Coursera Engineering Blog](https://building.coursera.org/)
 * [PayPal Engineering Blog](https://www.paypal-engineering.com/)
 * [Nextdoor Engineering Blog](https://engblog.nextdoor.com/)
+* [Booking.com Development Blog](https://blog.booking.com/)
+* [Scalyr Engineering Blog ](https://blog.scalyr.com/)
 
 ### [[⬆]](#toc) <a name='system'>Products and Systems:</a>
 
@@ -232,7 +234,8 @@ Reference:
 
 * [Big Data: Principles and best practices of scalable realtime data systems](http://www.amazon.com/Big-Data-Principles-practices-scalable/dp/1617290343)
 * [Real-Time Analytics: Techniques to Analyze and Visualize Streaming Data](http://www.amazon.com/Real-Time-Analytics-Techniques-Visualize-Streaming/dp/1118837916)
-* [Building Microservices](http://www.amazon.com/Building-Microservices-Sam-Newman/dp/1491950358)
+* [Building Microservices: Designing Fine-Grained Systems](http://www.amazon.com/Building-Microservices-Sam-Newman/dp/1491950358)
+* [Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
 
 ### [[⬆]](#toc) <a name='ood'>Object Oriented Design:</a>
 
